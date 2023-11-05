@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+     <head>
+	     <title>Form</title>
+		 <meta charset="UTF-8" />
+	 </head>
+	 <body>
+	     <h1>Form đăng ký thành viên</h1>
+		 <form>
+		     <label>Tên đăng nhập(*):</label>
+			 <input type="text" name="username" value=""/>
+			 <br/>
+			 <label>Mật khẩu(*):</label>
+			 <input type="password" name="password" value=""/>
+			 <br/>
+			 <label>Tình trạng:</label>
+			 <input type="checkbox" name="tinhtrang" value="docthan" />Độc thân
+			 <input type="checkbox" name="tinhtrang" value="motminh" checked />Một mình
+			 <input type="checkbox" name="tinhtrang" value="cahai"/>Cả hai
+			 <br/>
+			 <label>Giới tính(*):</label>
+			 <input type="radio" name="gioitinh" value="nam" checked />Nam
+			 <input type="radio" name="gioitinh" value="nu"/>Nữ
+			 <br/>
+			 <label>Ảnh đại diện</label>
+			 <input type="file" name="avatar" value=""/>
+			 <br />
+			 <label>Thành phố (*):</label>
+			 <select name="thanhpho" >
+			     <option value="DN" >Đà Nẵng</option>
+				 <option value="HCM">Hồ chí Minh</option>
+				 <option value="HN" selected >Hà Nội</option>
+			 </select>
+			 <br/>
+			 <label>Thông tin thêm</label>
+			 <textarea name="thongtinthem" rows="5" clos="30">đây là thông tin thêm của tôi</textarea>
+			 <br/>
+			 <input  type="submit" name="dangky" value="đăng ký"/>
+			 <input type="reset" name="nhaplai" value="Nhập lại"/>
+			 
+		 </form>
+	 </body>
+</html>
